@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📱 College Management App
 📖 Description:
 
@@ -21,3 +22,7 @@ Developer Information
 Android Studio
 Java 
 Firebase
+=======
+# College-app
+A feature-rich College Management Android App with notifications, results, question papers, faculty details, admission and placement forms, feedback system, and more using Firebase.
+>>>>>>> 3692f3a681a978814a339dbccbbf80fd1ab181e5
