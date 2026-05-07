@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_place"
+        android:icon="@drawable/ic_placement"
+        android:title="Show Students" />
+
+
+    <item
+        android:id="@+id/nav_users"
+        android:icon="@drawable/ic_person"
+        android:title="All Users" />
+
+    <item
+        android:id="@+id/nav_log"
+        android:icon="@drawable/ic_person"
+        android:title="Information" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+
+</menu>

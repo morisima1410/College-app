@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F6FF"
+    tools:context=".NotesActivity">
+
+    <!-- Logo Card -->
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/sky_blue"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="C.U.Shah Polytechnic,Surendranagar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/gtuLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/img_3"/>
+    </LinearLayout>
+
+    <!-- GTU RESULT TITLE -->
+    <TextView
+        android:id="@+id/gtuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GTU RESULT"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/sky_blue"
+        android:layout_marginBottom="40dp"
+        android:letterSpacing="0.05"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- MID RESULT Button -->
+    <Button
+        android:id="@+id/midButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Mid Result"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/sky_blue"
+        android:layout_marginBottom="16dp" />
+
+    <!-- GTU RESULT Button -->
+    <Button
+        android:id="@+id/gtuButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GTU Result"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/sky_blue"
+        android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</LinearLayout>

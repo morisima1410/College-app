@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sky_blue">#1A237E</color>
+    <color name="sky_blue_dark">#0288D1</color>
+    <color name="sky_blue_light">#B3E5FC</color>
+
+    <color name="sky_on_primary">#00008B</color>
+
+    <color name="sky_text_primary">#E3F2FD</color>
+    <color name="sky_text_secondary">#BBDEFB</color>
+    <color name="light_gray">#A0A0A0</color>
+    <color name="bg_light">#F2F6FF</color>
+    <color name="sky_background">#0F172A</color> <!-- Dark bluish background -->
+
+
+
+
+</resources>

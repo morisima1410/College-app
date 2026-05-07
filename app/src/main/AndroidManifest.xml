@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/college_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/college_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.PROJECTEXPO.SkyBlue">
+        <activity
+            android:name=".feedbackActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".Admission"
+            android:exported="true" />
+        <activity
+            android:name=".LabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutas"
+            android:exported="false" />
+        <activity
+            android:name=".Update"
+            android:exported="true" />
+        <activity
+            android:name=".Generaldesign"
+            android:exported="true" />
+        <activity
+            android:name=".CDDMdesign"
+            android:exported="true" />
+        <activity
+            android:name=".Electricaldesign"
+            android:exported="true" />
+        <activity
+            android:name=".Automobiledesign"
+            android:exported="true" />
+        <activity
+            android:name=".Mechanicaldesign"
+            android:exported="true" />
+        <activity
+            android:name=".Civildesign"
+            android:exported="true" />
+        <activity
+            android:name=".ComputerDesign"
+            android:exported="true" />
+        <activity
+            android:name=".AllUsersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShowNotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Show"
+            android:exported="true" />
+        <activity
+            android:name=".PlacementRegister"
+            android:exported="true" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem6"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem5"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem4"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem3"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem2"
+            android:exported="true" />
+        <activity
+            android:name=".electric.EleSem1"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem6"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem5"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem4"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem3"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem2"
+            android:exported="true" />
+        <activity
+            android:name=".mechanical.Mecsem1"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem6"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem5"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem4"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem3"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem2"
+            android:exported="true" />
+        <activity
+            android:name=".civil.civilsem1"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Compsem2"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Compsem6"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Compsem5"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Compsem4"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Compsem3"
+            android:exported="false" />
+        <activity
+            android:name=".computer.Compsem1"
+            android:exported="true" />
+        <activity
+            android:name=".computer.Computer"
+            android:exported="true" />
+        <activity
+            android:name=".QuestionpaperActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FacultyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

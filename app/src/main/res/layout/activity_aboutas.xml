@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Toolbar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/sky_blue"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_back"
+                android:tint="@android:color/white"
+                android:layout_centerVertical="true"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <!-- App Logo -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C.U.Shah Polytechnic,Surendranagar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky_blue"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <!-- About Project -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Project"
+            android:textColor="@android:color/white"
+            android:background="@color/sky_blue"
+            android:padding="8dp"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:layout_margin="16dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This application is developed as a Final Year Diploma Project for the Department of Computer Engineering, C. U. Shah Polytechnic.\n\nThe College Application provides students with quick access to college information such as departments, faculty details, notices and important academic updates through a single mobile platform."
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!-- Developer Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer Information"
+            android:textColor="@android:color/white"
+            android:background="@color/sky_blue"
+            android:padding="8dp"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by : Sima Mori\nEnrollment No : 236090307077\nDiploma in Computer Engineering\nC. U. Shah Polytechnic"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/tvEmail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📧 Email:morihardik1410@gmail.com"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="@color/sky_blue"
+                android:autoLink="email"
+                android:layout_marginTop="8dp"/>
+
+            <!-- LinkedIn -->
+            <TextView
+                android:id="@+id/tvLinkedIn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="🔗 LinkedIn:https://www.linkedin.com/in/sima-mori-a0102a349"
+                android:textColor="@color/black"
+                android:textColorLink="@color/sky_blue"
+                android:autoLink="web"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Technology -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology Used"
+            android:textColor="@android:color/white"
+            android:background="@color/sky_blue"
+            android:padding="8dp"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:layout_margin="16dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frontend : Android Studio (XML)\nBackend : Java\nDatabase : Firebase / SQLite\nPlatform : Android"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2025 C. U. Shah Polytechnic\nFinal Year Diploma Project\nMade with ❤️ in India"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
