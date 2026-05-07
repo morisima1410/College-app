@@ -5,7 +5,9 @@ This is a comprehensive College Management Android Application designed to digit
 
 🔥 Features:
 User Notifications
+
 Question Papers
+
 Results System
 Faculty List
 Placement Form
